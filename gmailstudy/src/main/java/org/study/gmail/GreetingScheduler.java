@@ -21,11 +21,7 @@ public class GreetingScheduler {
 
 	public static void main(String[] args) throws IOException, MessagingException, SchedulerException {
 		System.out.println("hello");
-		/*PrepareGreetingMail obj = new PrepareGreetingMail();
-		obj.getBirthdayPeople();
-		for(Person p : obj.listPersons) {
-			obj.sendMail(p.getName(), p.getEmailAddress(), p.getOccasion(), p.isPersonElder());
-		}*/
+		
 		trigger();
 	}
 	
