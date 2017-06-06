@@ -3,4 +3,5 @@ org/study/gmail/Utility.class
 org/study/gmail/Person.class
 org/study/gmail/PrepareGreetingMail.class
 org/study/gmail/GreetingScheduler.class
+org/study/gmail/GreetingTrigger.class
 org/study/gmail/BirthdayListGoogleSheet.class

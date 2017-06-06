@@ -25,7 +25,11 @@ public class BirthdayListGoogleSheet {
 	// Prints the names and majors of students in a sample spreadsheet:
     // https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
     private static String spreadsheetId = "1glFWXtORzn3Uq9ebrP-F1dTrYH4AkoWbfHmg-y6vBeI";
-	
+
+	public static void setSpreadsheetId(String spreadsheetId) {
+		BirthdayListGoogleSheet.spreadsheetId = spreadsheetId;
+	}
+
 	/** Application name. */
     private static final String APPLICATION_NAME =
         "Google Sheets API Java Quickstart";

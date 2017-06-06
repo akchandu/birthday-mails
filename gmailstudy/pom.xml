@@ -8,36 +8,30 @@
 	<description>gmailstudy</description>
 
 	<dependencies>
+		<!-- gmail api -->
 		<dependency>
 			<groupId>com.google.apis</groupId>
 			<artifactId>google-api-services-gmail</artifactId>
 			<version>v1-rev62-1.22.0</version>
 		</dependency>
+		<!-- google sheets api -->
 		<dependency>
 			<groupId>com.google.apis</groupId>
 			<artifactId>google-api-services-sheets</artifactId>
 			<version>v4-rev475-1.22.0</version>
 		</dependency>
-		<!-- <dependency> <groupId>com.google.http-client</groupId> <artifactId>google-http-client-jackson</artifactId> 
-			<version>1.15.0-rc</version> </dependency> -->
+		
 		<dependency>
 			<groupId>javax.mail</groupId>
 			<artifactId>javax.mail-api</artifactId>
 			<version>1.5.1</version>
-			<!-- <scope>required</scope> -->
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.google.oauth-client/google-oauth-client-java6 -->
-		<!-- <dependency> <groupId>com.google.oauth-client</groupId> <artifactId>google-oauth-client-java6</artifactId> 
-			<version>1.22.0</version> </dependency> -->
-
 		<dependency>
 			<groupId>com.google.oauth-client</groupId>
 			<artifactId>google-oauth-client-jetty</artifactId>
 			<version>1.22.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.google.api-client/google-api-client -->
-		<!-- <dependency> <groupId>com.google.api-client</groupId> <artifactId>google-api-client</artifactId> 
-			<version>1.22.0</version> </dependency> -->
+
 		<dependency>
 			<groupId>com.sun.mail</groupId>
 			<artifactId>javax.mail</artifactId>
@@ -48,14 +42,13 @@
 			<artifactId>poi</artifactId>
 			<version>3.10-FINAL</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>3.9</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.quartz-scheduler/quartz -->
+		<!-- Quartz jobs  -->
 		<dependency>
 			<groupId>org.quartz-scheduler</groupId>
 			<artifactId>quartz</artifactId>
@@ -67,10 +60,33 @@
 			<version>1.5.6</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
-		<!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
-		<!-- <dependency> <groupId>org.dom4j</groupId> <artifactId>dom4j</artifactId> 
-			<version>2.0.0-RC1</version> </dependency> -->
+		<!-- SPRING jars - start -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>4.3.8.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.3.8.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>4.3.8.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+			<version>4.3.8.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-expression</artifactId>
+			<version>4.3.8.RELEASE</version>
+		</dependency>
+		<!-- SPRING jars - stop -->
 
 
 
